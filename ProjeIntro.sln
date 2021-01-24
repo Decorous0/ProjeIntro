@@ -3,23 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjeIntro", "ProjeIntro\ProjeIntro.csproj", "{166756F1-0C9D-4703-AD8F-11A58493CEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjeIntro", "ProjeIntro\ProjeIntro.csproj", "{166756F1-0C9D-4703-AD8F-11A58493CEE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{3ABAD408-0314-4D2C-83DC-449D16BFF1F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{3ABAD408-0314-4D2C-83DC-449D16BFF1F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueAndReference", "ValueAndReference\ValueAndReference.csproj", "{7988F068-2733-4173-9084-9074388F3967}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueAndReference", "ValueAndReference\ValueAndReference.csproj", "{7988F068-2733-4173-9084-9074388F3967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{777B5E0C-945E-4F3B-B450-7A5085964F0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{777B5E0C-945E-4F3B-B450-7A5085964F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericIntro", "GenericIntro\GenericIntro.csproj", "{DCFA846C-53F4-4A3F-9601-7F77AE6055F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericIntro", "GenericIntro\GenericIntro.csproj", "{DCFA846C-53F4-4A3F-9601-7F77AE6055F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{9ECE6BC7-0943-49E7-8DA8-466699603A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{9ECE6BC7-0943-49E7-8DA8-466699603A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "Math\Math.csproj", "{C6900199-8654-494A-910F-E317D012C3B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math", "Math\Math.csproj", "{C6900199-8654-494A-910F-E317D012C3B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{3663A672-0BB1-489E-9A1A-C553ABDD334B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{3663A672-0BB1-489E-9A1A-C553ABDD334B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{9298EF9F-A48F-4EC7-A40D-BB4F3BAE7972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{9298EF9F-A48F-4EC7-A40D-BB4F3BAE7972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{1B029464-37AE-471D-A608-2C4D98BFD216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{D20C635C-AAAC-43F8-BC76-2E9B14673C80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{9298EF9F-A48F-4EC7-A40D-BB4F3BAE7972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9298EF9F-A48F-4EC7-A40D-BB4F3BAE7972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9298EF9F-A48F-4EC7-A40D-BB4F3BAE7972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B029464-37AE-471D-A608-2C4D98BFD216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B029464-37AE-471D-A608-2C4D98BFD216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B029464-37AE-471D-A608-2C4D98BFD216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B029464-37AE-471D-A608-2C4D98BFD216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20C635C-AAAC-43F8-BC76-2E9B14673C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20C635C-AAAC-43F8-BC76-2E9B14673C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20C635C-AAAC-43F8-BC76-2E9B14673C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20C635C-AAAC-43F8-BC76-2E9B14673C80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
