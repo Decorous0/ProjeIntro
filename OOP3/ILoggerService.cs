@@ -4,9 +4,8 @@ using System.Text;
 
 namespace OOP3
 {
-    interface ICreditManager
+    interface ILoggerService
     {
-        void Hesapla();
-        void BiseyYap();
+        void Log();
     }
 }

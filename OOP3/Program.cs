@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OOP3
 {
@@ -8,10 +9,21 @@ namespace OOP3
         {
             ICreditManager ihtiyacKrediManager = new PersonalFinanceCreditManager();
             ICreditManager tasitKrediManager = new CarLoanManager();
-            ICreditManager konutKrediManager = new HousingLoanManager();
+            ICreditManager konutKrediManager = new KonutKrediManager();
 
-            ApplicationManager basvuruManager = new ApplicationManager();
-            basvuruManager.BasvuruYap(ihtiyacKrediManager);
+            ILoggerService databaseLoggerService = new DatabaseLoggerService();
+            ILoggerService fileLoggerService = new FileLoggerService();
+
+            List<ILoggerService> loggers = new List<ILoggerService> { new SmsLoggerService(), new FileLoggerService() };
+
+
+            BasvuruManager basvuruManager = new BasvuruManager();
+            basvuruManager.BasvuruYap(new EsnafKredisiManager(), loggers);
+
+            List<ICreditManager> krediler = new List<ICreditManager>() { ihtiyacKrediManager, tasitKrediManager };
+
+            //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+
         }
     }
 }

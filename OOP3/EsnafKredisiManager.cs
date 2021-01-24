@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP3
 {
-    class KonutKrediManager : ICreditManager
+    class EsnafKredisiManager : ICreditManager
     {
         public void BiseyYap()
         {
@@ -13,7 +13,7 @@ namespace OOP3
 
         public void Hesapla()
         {
-            Console.WriteLine("Konut kredisi ödeme planı hesaplandı");
+            Console.WriteLine("Esnaf kredisi hesaplandı");
         }
     }
 }
